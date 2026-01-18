@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="mr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latur Live - लातूर आणि जिल्हा बातम्या</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Tiro+Devanagari+Marathi:ital@0;1&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="glass-header">
+            <div class="logo-area">
+                <h1>🔴 Latur Live</h1>
+                <p>आपलं लातूर, आपल्या बातम्या</p>
+            </div>
+            <div class="date-display">
+                <span id="current-day">वार</span>, <span id="current-date">तारीख</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="news-container" class="news-grid">
+            <!-- News Cards will be injected here by JS -->
+            <div class="loading-spinner">
+                <i class="fas fa-circle-notch fa-spin"></i> Loading News...
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Latur Live News Portal. Real-time updates. <br>
+            <small style="color: grey;">Last Checked: <span id="last-updated">Just now</span></small>
+        </p>
+
+        <div class="credits-section">
+            <h3 class="credits-title">Developed By</h3>
+            <ul class="credits-list">
+                <li>1) Aniket Sripati Thore (COPA)</li>
+                <li>2) Akash Hanmantrao Birajdar (COPA)</li>
+                <li>3) Vijay Shivaji Pawar (COPA)</li>
+                <li>4) Saifulla Mohaddin Shaikh (COPA)</li>
+            </ul>
+
+            <h3 class="credits-title">Guided By</h3>
+            <p class="guide-name">A.S. Dongre (CI COPA)</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

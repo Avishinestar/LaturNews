@@ -1,0 +1,247 @@
+:root {
+    --primary-color: #ff4757;
+    --secondary-color: #2f3542;
+    --bg-color: #f1f2f6;
+    --card-bg: #ffffff;
+    --text-color: #2f3542;
+    --accent-color: #3742fa;
+    --glass-bg: rgba(255, 255, 255, 0.95);
+    --shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    /* Fallback for English text */
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+/* Marathi Font Override */
+h1,
+h2,
+h3,
+p,
+span,
+div {
+    font-family: 'Tiro Devanagari Marathi', serif, 'Outfit', sans-serif;
+}
+
+/* Header */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 1rem 0;
+}
+
+.glass-header {
+    background: var(--glass-bg);
+    backdrop-filter: blur(10px);
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    border-radius: 16px;
+    box-shadow: var(--shadow);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.logo-area h1 {
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.logo-area p {
+    font-size: 0.9rem;
+    color: #57606f;
+}
+
+.date-display {
+    text-align: right;
+    font-weight: 600;
+    color: var(--secondary-color);
+    background: rgba(0, 0, 0, 0.05);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    min-height: 80vh;
+}
+
+/* News Grid */
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+/* News Card */
+.news-card {
+    background: var(--card-bg);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.news-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    background-color: #dfe4ea;
+}
+
+.card-content {
+    padding: 1.5rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.source-badge {
+    background-color: var(--accent-color);
+    color: white;
+    padding: 0.2rem 0.6rem;
+    border-radius: 20px;
+    font-size: 0.7rem;
+    display: inline-block;
+    margin-bottom: 0.8rem;
+    align-self: flex-start;
+}
+
+.news-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+    color: var(--secondary-color);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.news-desc {
+    font-size: 0.95rem;
+    color: #747d8c;
+    margin-bottom: 1.5rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    flex-grow: 1;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #f1f2f6;
+    padding-top: 1rem;
+    font-size: 0.85rem;
+    color: #a4b0be;
+}
+
+.read-more {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+.read-more:hover {
+    color: #ff6b81;
+}
+
+/* Loading */
+.loading-spinner {
+    text-align: center;
+    width: 100%;
+    grid-column: 1 / -1;
+    padding: 4rem;
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 2rem;
+    background: #ffffff;
+    margin-top: 3rem;
+    color: #a4b0be;
+    font-family: 'Outfit', sans-serif;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .glass-header {
+        flex-direction: column;
+        text-align: center;
+        width: 95%;
+    }
+
+    .date-display {
+        margin-top: 1rem;
+        width: 100%;
+    }
+}
+
+/* Credits Banner */
+.credits-section {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #f1f2f6;
+    text-align: center;
+}
+
+.credits-title {
+    color: var(--secondary-color);
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.credits-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1.5rem;
+}
+
+.credits-list li {
+    margin-bottom: 0.4rem;
+    color: #57606f;
+    font-size: 0.95rem;
+}
+
+.guide-name {
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
