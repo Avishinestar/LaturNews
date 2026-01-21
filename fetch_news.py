@@ -1,4 +1,5 @@
 import feedparser
+import re
 import requests
 from bs4 import BeautifulSoup
 from googletrans import Translator
@@ -14,23 +15,92 @@ import dateutil.parser
 BASE_RSS_URL = "https://news.google.com/rss/search?q={query}&hl=mr-IN&gl=IN&ceid=IN:mr"
 
 QUERIES = [
-    "Latur OR Latur District when:3d",
-    "Udgir OR Ausa OR Nilanga OR Ahmedpur when:3d", # Major Tehsils
-    "site:lokmat.com Latur OR Udgir OR Ausa when:3d",
-    "site:esakal.com Latur OR Udgir OR Ausa when:3d",
-    "site:divyamarathi.bhaskar.com Latur when:3d",
-    "site:abpmajha.abplive.in Latur when:3d",
-    "site:loksatta.com Latur when:3d",
-    "site:maharashtratimes.com Latur when:3d",
-    "site:tv9marathi.com Latur when:3d",
-    "site:samna.asia Latur when:3d"
+    "Latur District News when:1d",
+    "Latur City News when:1d",
+    # Tehsil specific - adding 'Latur' to ensure district relevance
+    "Udgir Latur News when:1d",
+    "Ausa Latur News when:1d",
+    "Nilanga Latur News when:1d",
+    "Ahmedpur Latur News when:1d",
+    "Chakur Latur News when:1d",
+    "Renapur Latur News when:1d",
+    "Jalkot Latur News when:1d", 
+    "Shirur Anantpal Latur News when:1d",
+    "Deoni Latur News when:1d",
+    # Specific Portals
+    "site:lokmat.com Latur when:1d",
+    "site:esakal.com Latur when:1d",
+    "site:pudhari.news Latur when:1d",
+    "site:saamana.com Latur when:1d",
+    "site:tv9marathi.com Latur when:1d",
+    "site:abpmajha.abplive.in Latur when:1d",
+    "site:news18.com Latur when:1d",
+    "site:zeenews.india.com Latur when:1d",
+    "site:maharashtratimes.com Latur when:1d",
+    "site:loksatta.com Latur when:1d",
+    "site:divyamarathi.bhaskar.com Latur when:1d",
+    # New Portals
+    "site:ndtv.com Latur when:1d",
+    "site:saamtv.esakal.com Latur when:1d",
+    "site:agrowon.esakal.com Latur when:1d",
+    "site:sarkarnama.esakal.com Latur when:1d",
+    "site:tarunbharat.com Latur when:1d",
+    "site:deshonnati.com Latur when:1d",
+    "site:jaimaharashtranews.com Latur when:1d",
+    "site:maxmaharashtra.com Latur when:1d",
+    "site:punyanagari.com Latur when:1d",
+    "site:timesofindia.indiatimes.com Latur when:1d",
+    "site:hindustantimes.com Latur when:1d",
+    "site:aajlatur.com Latur when:1d"
 ]
+
+# Strict Filter Keywords (Latur District Locations)
+DISTRICT_KEYWORDS = [
+    # English
+    "Latur", "Udgir", "Ahmedpur", "Ausa", "Nilanga", "Renapur", 
+    "Chakur", "Deoni", "Devni", "Shirur Anantpal", "Shirur-Anantpal", "Jalkot", "Jalkote",
+    
+    # Marathi
+    "लातूर", "उदगीर", "अहमदपूर", "औसा", "निलंगा", "रेणापूर", 
+    "चाकूर", "देवणी", "शिरूर अनंतपाळ", "शिरुर अनंतपाळ", "जळकोट"
+]
+
 
 JSON_FILE = "news_data.json"
 TRANSLATOR = Translator(timeout=10)
 
+def is_relevant(text):
+    """Check if text contains any district keyword using strict word boundaries."""
+    if not text:
+        return False
+    text_lower = text.lower()
+    
+    for keyword in DISTRICT_KEYWORDS:
+        # Check if keyword is ASCII (English) or Unicode (likely Marathi)
+        if keyword.isascii():
+            # For English, stick to strict word boundaries to avoid false positives (e.g. "Legislature")
+            pattern = r'\b' + re.escape(keyword.lower()) + r'\b'
+            if re.search(pattern, text_lower):
+                return True
+        else:
+            # For Marathi, relax strict boundaries to catch inflections (e.g. "लातूरमध्ये", "लातूरचा")
+            # Simple substring check is usually safe for these distinct place names
+            if keyword.lower() in text_lower:
+                return True
+            
+    return False
+
 def fetch_and_process_news():
     print(f"[{datetime.now()}] Checking for news from multiple sources...")
+    
+    # Clear existing data to ensure no stale/unfiltered items remain if fetch fails
+    if os.path.exists(JSON_FILE):
+        try:
+            os.remove(JSON_FILE)
+            print("Cleared old news data.")
+        except Exception as e:
+            print(f"Warning: Could not clear old data: {e}")
+
     all_entries = []
     
     # Fetch from all queries
@@ -58,18 +128,41 @@ def fetch_and_process_news():
 
         if title in seen_titles:
             continue
+            
+        # Strict Filtering: Check if title or link implies relevance
+        # We can't check description effectively yet as it might need fetching/translating,
+        # but let's check what we have (title).
+        # We will also check description AFTER extraction/translation if needed, 
+        # but filtering early saves processing.
+        if not is_relevant(title):
+            # If title doesn't match, check description/summary
+            # We extract description text early for checking
+            temp_desc = BeautifulSoup(entry.summary, "html.parser").get_text() if 'summary' in entry else ""
+            if not is_relevant(temp_desc):
+                 # print(f"Skipping unrelated (Title & Desc mismatch): {title}")
+                 continue
+
         seen_titles.add(title)
 
         # Parse date to ensure it's today's news
         pub_date_str = entry.published
+        is_today = False
         try:
             dt = dateutil.parser.parse(pub_date_str)
+            
+            # Convert to local system time if it has timezone info
+            if dt.tzinfo:
+                dt = dt.astimezone() # Convert to local system time
+                
             # Global filter: Only show news from Today (local time approx)
-            # Keeping it loose as per previous logic
-            pass
+            if dt.date() == datetime.now().date():
+                 is_today = True
         except Exception as e:
             # print(f"Date parsing error: {e}")
             pass
+        
+        if not is_today:
+             continue
 
         # Extract Image (Thumbnail)
         image_url = "https://via.placeholder.com/300x200?text=Latur+News"
@@ -103,54 +196,8 @@ def fetch_and_process_news():
             # print(f"Translation warning for '{title[:20]}...': {e}")
             pass
 
-        # STRICT FILTER CHECK
-        # We check both positive keywords (Must Have) and negative keywords (Must Not Have if no Latur)
-        check_text = (title + " " + description).lower()
-        
-        # 1. Positive Keywords: Must contain at least one of these
-        positive_keywords = [
-            "latur", "laatur", "लातूर",
-            "udgir", "उदगीर",
-            "ausa", "औसा",
-            "nilanga", "निलंगा",
-            "ahmedpur", "अहमदपूर",
-            "chakur", "चाकूर",
-            "renapur", "रेणापूर",
-            "shirur anantpal", "shirur-anantpal",
-            "deoni", "devni",
-            "jalkot"
-        ]
-        
-        if not any(k in check_text for k in positive_keywords):
-            continue
+        # Strict filtering already done on title.
 
-        # 2. Negative Keywords: Exclude if these unrelated places are mentioned AND "Latur" is not the main focus.
-        # This helps avoid "Statewide news" that mentions 10 districts including Latur, or false positives.
-        # Actually, user wants STRICT Latur news. 
-        # So if it mentions "Pune" or "Mumbai" heavily but Latur is just a tag, we might want to keep it IF it's about Latur.
-        # But if it's "Pune Election Results" and Latur is not mentioned, looking at the previous logic, it shouldn't have passed?
-        # Aah, "Latur" might be in the 'source' or hidden metadata we don't see, or Google Search is fuzzy.
-        # Let's add an explicit exclude for other district headers if Latur is not in the TITLE.
-
-        # Refined Logic: If Title mentions another District but NOT Latur, skip it.
-        # (This prevents "Pune News" appearing just because "Latur" was in the description footer)
-        
-        other_districts = [
-            "pune", "mumbai", "nashik", "aurangabad", "sambhajinagar", "nagpur", 
-            "kolhapur", "solapur", "sangli", "satara", "thane", "palghar", 
-            "dhule", "jalgaon", "nanded", "parbhani", "beed", "hingoli", "jalna",
-            "amravati", "akola", "yavatmal", "washim", "bhandara", "gondia", "chandrapur", "gadchiroli",
-            "raigad", "ratnagiri", "sindhudurg", "dharashiv", "osmanabad"
-        ]
-
-        title_lower = title.lower()
-        
-        # If title is heavily about another district and doesn't mention Latur, skip.
-        is_about_other = any(d in title_lower for d in other_districts)
-        is_about_latur_title = any(k in title_lower for k in positive_keywords)
-        
-        if is_about_other and not is_about_latur_title:
-             continue
 
 
         news_items.append({
