@@ -6,7 +6,7 @@ from googletrans import Translator
 import json
 import time
 import schedule
-from datetime import datetime
+from datetime import datetime, timedelta
 import os
 import dateutil.parser
 
@@ -214,8 +214,9 @@ def fetch_and_process_news():
             if dt.tzinfo:
                 dt = dt.astimezone() # Convert to local system time
                 
-            # Global filter: Only show news from Today (local time approx)
-            if dt.date() == datetime.now().date():
+            # Global filter: News from Last 24 Hours
+            # This ensures morning visitors see news from last night
+            if (datetime.now().astimezone() - dt).total_seconds() <= 24 * 3600:
                  is_today = True
         except Exception as e:
             # print(f"Date parsing error: {e}")
