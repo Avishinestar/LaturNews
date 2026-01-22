@@ -74,7 +74,7 @@ function renderNews(newsItems) {
         const timeStr = dateObj.toLocaleTimeString('mr-IN', { hour: '2-digit', minute: '2-digit' });
 
         card.innerHTML = `
-            <img src="${item.image}" alt="News Image" class="card-image" onerror="this.src='https://via.placeholder.com/300x200?text=Latur+News'">
+            <img src="${item.image}" alt="News Image" class="card-image" ${item.is_logo ? 'style="object-fit: contain; padding: 20px;"' : ''} onerror="this.src='https://via.placeholder.com/300x200?text=Latur+News'">
             <div class="card-content">
                 <span class="source-badge">${item.source}</span>
                 <h3 class="news-title">${item.title}</h3>

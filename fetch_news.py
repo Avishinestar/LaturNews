@@ -39,6 +39,14 @@ QUERIES = [
     "site:maharashtratimes.com Latur when:1d",
     "site:loksatta.com Latur when:1d",
     "site:divyamarathi.bhaskar.com Latur when:1d",
+    "site:ekmat.com Latur when:1d",
+    "site:public.app Latur when:1d",
+    "Latur Samachar when:1d",
+    # ePaper Queries
+    "Lokmat ePaper Latur when:1d",
+    "Esakal ePaper Latur when:1d",
+    "Ekmat ePaper Latur when:1d",
+    "Pudhari ePaper Latur when:1d",
     # New Portals
     "site:ndtv.com Latur when:1d",
     "site:saamtv.esakal.com Latur when:1d",
@@ -66,6 +74,50 @@ DISTRICT_KEYWORDS = [
 ]
 
 
+
+SOURCE_DOMAINS = {
+    "Lokmat": "lokmat.com",
+    "Lokmat.com": "lokmat.com",
+    "Lokmat ePaper": "lokmat.com",
+    "Sakal": "esakal.com",
+    "Esakal": "esakal.com",
+    "Pudhari": "pudhari.news",
+    "Pudhari News": "pudhari.news",
+    "Saamana": "saamana.com",
+    "TV9 Marathi": "tv9marathi.com",
+    "ABP Majha": "marathi.abplive.com", 
+    "News18": "news18.com",
+    "News18 Lokmat": "news18.com",
+    "news18marathi.com": "news18.com",
+    "Zee News": "zeenews.india.com",
+    "Zee 24 Taas": "zeenews.india.com",
+    "Maharashtra Times": "maharashtratimes.com",
+    "Loksatta": "loksatta.com",
+    "Divya Marathi": "divyamarathi.bhaskar.com",
+    "divyamarathi.bhaskar.com": "divyamarathi.bhaskar.com",
+    "NDTV Marathi": "ndtv.com",
+    "Agrowon": "agrowon.esakal.com",
+    "Saam TV": "saamtv.esakal.com",
+    "saamtv.esakal.com": "saamtv.esakal.com",
+    "Tarun Bharat": "tarunbharat.com",
+    "Deshonnati": "deshonnati.com",
+    "Sarkarnama": "sarkarnama.esakal.com",
+    "Jai Maharashtra": "jaimaharashtranews.com",
+    "Max Maharashtra": "maxmaharashtra.com",
+    "Punyanagari": "punyanagari.com",
+    "Times of India": "timesofindia.indiatimes.com",
+    "Hindustan Times": "hindustantimes.com",
+    "Aaj Latur": "aajlatur.com",
+    "Webdunia Marathi": "marathi.webdunia.com",
+    "navarashtra.com": "navarashtra.com",
+    "Pune Prime News": "puneprimenews.com",
+    "Ekmat": "ekmat.com",
+    "Ekmat ePaper": "ekmat.com",
+    "Latur Samachar": "latursamachar.com",
+    "Public App": "public.app",
+    "Public.app": "public.app"
+}
+
 JSON_FILE = "news_data.json"
 TRANSLATOR = Translator(timeout=10)
 
@@ -89,6 +141,10 @@ def is_relevant(text):
                 return True
             
     return False
+
+TRUSTED_SOURCES = [
+    "Latur Samachar", "Aaj Latur", "Ekmat", "dainikekmat.com", "Public App", "Public.app", "Punyanagari", "punyanagari.com"
+]
 
 def fetch_and_process_news():
     print(f"[{datetime.now()}] Checking for news from multiple sources...")
@@ -129,12 +185,16 @@ def fetch_and_process_news():
         if title in seen_titles:
             continue
             
+        # Check source for trusted bypass
+        source_title = entry.source.title if 'source' in entry else ""
+        is_trusted = any(trusted in source_title for trusted in TRUSTED_SOURCES)
+
         # Strict Filtering: Check if title or link implies relevance
         # We can't check description effectively yet as it might need fetching/translating,
         # but let's check what we have (title).
         # We will also check description AFTER extraction/translation if needed, 
         # but filtering early saves processing.
-        if not is_relevant(title):
+        if not is_trusted and not is_relevant(title):
             # If title doesn't match, check description/summary
             # We extract description text early for checking
             temp_desc = BeautifulSoup(entry.summary, "html.parser").get_text() if 'summary' in entry else ""
@@ -165,7 +225,9 @@ def fetch_and_process_news():
              continue
 
         # Extract Image (Thumbnail)
-        image_url = "https://via.placeholder.com/300x200?text=Latur+News"
+        image_url = ""
+        is_logo = False
+        
         try:
            # Check if description has an image
             soup_desc = BeautifulSoup(entry.summary, "html.parser")
@@ -175,6 +237,25 @@ def fetch_and_process_news():
         except Exception as e:
             # print(f"Image extraction error: {e}")
             pass
+            
+        # If no image found or it's a known pixel tracker (often 1x1), try source logo
+        if not image_url or "tracker" in image_url or "pixel" in image_url:
+            source_name = entry.source.title if 'source' in entry else ""
+            # Try exact match or partial match
+            domain = SOURCE_DOMAINS.get(source_name)
+            if not domain:
+                # Try to find a partial match manually
+                for name, dom in SOURCE_DOMAINS.items():
+                    if name.lower() in source_name.lower():
+                        domain = dom
+                        break
+            
+            if domain:
+                image_url = f"https://logo.clearbit.com/{domain}"
+                is_logo = True
+            else:
+                image_url = "https://via.placeholder.com/300x200?text=Latur+News"
+                is_logo = False
 
         # Description cleanup
         description = BeautifulSoup(entry.summary, "html.parser").get_text()
@@ -205,6 +286,7 @@ def fetch_and_process_news():
             "link": link,
             "date": pub_date_str, # Keep original string for display
             "image": image_url,
+            "is_logo": is_logo,
             "source": entry.source.title if 'source' in entry else "News Portal",
             "description": description
         })
