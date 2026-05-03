@@ -36,15 +36,6 @@
         "description": "Latur News: तिरू प्रकल्पात केवळ २७ टक्के पाणीसाठा; सातही बॅरेजेस कोरडे, वाढत्या उन्हामुळे बाष्पीभवनात वाढ  Esakal"
     },
     {
-        "title": "Latur Crime: जळकोटमध्ये नराधम बापाकडून मंतिमंद अल्पवयीन मुलीवर बलात्कार; १९ आठवड्यांची गर्भधारणा उघड - Esakal",
-        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdVFtWGwzS0ZSa202cWpBdy1za3AydlBfdW15MHgwa1RYQzg1TFU4ZGVRVGsxUDFoOEU1T2FFeTcwN05KY0tGbnc5NWJDdVVQLWhWRjQ2QUk3cEdBQ1BxSGRxTGlPT25JbEIybFVSMGQzNzN6b0lVTzRiUUtlaEdfTzVtMXFZYjRwazBLQld3ZzMxWVU1OFJFT3pNYw?oc=5",
-        "date": "Sun, 03 May 2026 13:30:08 GMT",
-        "image": "https://logo.clearbit.com/esakal.com",
-        "is_logo": true,
-        "source": "Esakal",
-        "description": "Latur Crime: जळकोटमध्ये नराधम बापाकडून मंतिमंद अल्पवयीन मुलीवर बलात्कार; १९ आठवड्यांची गर्भधारणा उघड  Esakal"
-    },
-    {
         "title": "धक्कादायक : गतीमंद मुलीवर पित्याकडूनच अत्याचार! जळकोट येथे गुन्हा दाखल….संतापाची लाट - Loksatta",
         "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdEpCOXUzWVpoMnVwTVU1bUxkcW9SZzlBSHFvSmhBR0t1R0ZmWEpfTU5LZjlMUE5SVUxVbERLZ1U1eUZnVkFzRi1tRzk4R09CTjdXb3lHWDZPZzdadWxHUUNXMkh6Z1hkQ0RTSGtoajBHSzRCaEhQVWVoU1dkUUNmM1N1Q3BhYm1rbGhCMmc0OUJJMkYtTXdNbld5Y0V4cHpFcW5xU1NtellJWUxXMDFGWXNGSdIBugFBVV95cUxQaXN5VFlmMFpqTUlURzhVcElvUDFJMDk3X3RpYjc5WGxYdWljSGw0YVNhNEk2S0xLLTlObmZLeFRadTdOcFBsbnpyMG1sVGdDYXVQOHdReVdMWDZ1NkYtVFhuLVNWUlViTmxkaWV5cUl2Y3ZzYWZ6QmFrbzIzWThfbnV1eDRfVWJtbnV1ampEZkZ0ZHlCZUtvSTlpcTRqWUpGUnE3UHU3NV9SXzhJTjV2YU5GdHU2Zld5Tmc?oc=5",
         "date": "Sun, 03 May 2026 13:02:35 GMT",
@@ -52,6 +43,15 @@
         "is_logo": true,
         "source": "Loksatta",
         "description": "धक्कादायक : गतीमंद मुलीवर पित्याकडूनच अत्याचार! जळकोट येथे गुन्हा दाखल….संतापाची लाट  Loksatta"
+    },
+    {
+        "title": "Latur Crime: जळकोटमध्ये नराधम बापाकडून मंतिमंद अल्पवयीन मुलीवर बलात्कार; १९ आठवड्यांची गर्भधारणा उघड - Esakal",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdVFtWGwzS0ZSa202cWpBdy1za3AydlBfdW15MHgwa1RYQzg1TFU4ZGVRVGsxUDFoOEU1T2FFeTcwN05KY0tGbnc5NWJDdVVQLWhWRjQ2QUk3cEdBQ1BxSGRxTGlPT25JbEIybFVSMGQzNzN6b0lVTzRiUUtlaEdfTzVtMXFZYjRwazBLQld3ZzMxWVU1OFJFT3pNYw?oc=5",
+        "date": "Sun, 03 May 2026 13:30:08 GMT",
+        "image": "https://logo.clearbit.com/esakal.com",
+        "is_logo": true,
+        "source": "Esakal",
+        "description": "Latur Crime: जळकोटमध्ये नराधम बापाकडून मंतिमंद अल्पवयीन मुलीवर बलात्कार; १९ आठवड्यांची गर्भधारणा उघड  Esakal"
     },
     {
         "title": "राज्यात कोकणचाच डंका; लातूर पुन्हा तळाशी! बारावीचा निकाल घटला - Lokmat.com",
@@ -135,13 +135,13 @@
         "description": "५ राज्यांच्या निवडणुकांचा सोमवारी निकाल  dainikekmat.com"
     },
     {
-        "title": "आज देशभरात ‘नीट’ परीक्षा - dainikekmat.com",
-        "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNMFBIb3ZwNDJwNUlRTEJuc1loOEsxa2lMLUx4M20zU09HT0t5aV9fdmNsVHFhdk52ZDE0QnNiT0dnSjJMNl9fZTRWZGRXWGk1dWE1VXVUQ1JUYTRhdFUzZ01qd1k5VHNjcGJBOTJVWldOTE5mMVl6cC1KdmFybGJpZ1IwYXpUZDBWbUw3UEhqdHhFZkI1NnFOU1czRDdoMnpjc3k1dW56c2N0VXk0V3BvNjVuWTdsT0twdkNmanRONnRncVhrc0RNUE1TTmR6RlFsUjB0czJ3dDVKTjZpTklHUXd5bGR3dWZRajNsR0VJdjNDODNnUmc1NnBSd2xqb0xGX0xJWUhIUlFwYWhPYTNMY1lab0JjdTZ2dDJIRWRVLVpLSnJ1US1tUjZnbnN3REk?oc=5",
-        "date": "Sun, 03 May 2026 08:12:25 GMT",
+        "title": "महाराष्ट्रात शक्ती कायदा लागू करा : रोहित पवार - dainikekmat.com",
+        "link": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxPdlB2dlNBV002U0xOcEI0aC1GeXJhTWwzSl9UNHNGdEZvWlY4b1RmSnhidFNvemZDOGdMLWZkb21qUVlXbDFienF2RTYxRnJQWXhJaEtlbHh0Zm93aUdCOUwyQlpIUG1keXV0OWNBVmZqd1hvNGltMDMyTTlJTllfb2VseHR1eTVyaFZlMFdCR1labExYLUgxay1NSHlCUUJickdoUDF6UWxLQlcwdFlZSWw1ZS1XVGZWY09fLWdZeGlWekI4YndmWk5jd3lWc1B3a3VVZzIxUzdRRzFNSHB4bU9iMUkwbHJPbGJKSXZ6Vk16RzFwUEFHSHJLX1hZZm95M3hWdUlxUE5OR3VDeWY5UW9CWWFpZkJxYUR1WFU0bjRQUjNMVEhEdlFWLUhpNFItWXJJSWtJc3ZLTEpzN2VxUHJpblE3c2hsQ2NNZ2dGWEI2UQ?oc=5",
+        "date": "Sun, 03 May 2026 10:14:28 GMT",
         "image": "https://logo.clearbit.com/ekmat.com",
         "is_logo": true,
         "source": "dainikekmat.com",
-        "description": "आज देशभरात ‘नीट’ परीक्षा  dainikekmat.com"
+        "description": "महाराष्ट्रात शक्ती कायदा लागू करा : रोहित पवार  dainikekmat.com"
     },
     {
         "title": "नसरापूरनंतर सांगलीत चिमुरडीवर अत्याचार - dainikekmat.com",
@@ -160,6 +160,15 @@
         "is_logo": true,
         "source": "dainikekmat.com",
         "description": "इंदुरीकर महाराजांच्या मुलीचा शाही विवाह सोहळा  dainikekmat.com"
+    },
+    {
+        "title": "आज देशभरात ‘नीट’ परीक्षा - dainikekmat.com",
+        "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNMFBIb3ZwNDJwNUlRTEJuc1loOEsxa2lMLUx4M20zU09HT0t5aV9fdmNsVHFhdk52ZDE0QnNiT0dnSjJMNl9fZTRWZGRXWGk1dWE1VXVUQ1JUYTRhdFUzZ01qd1k5VHNjcGJBOTJVWldOTE5mMVl6cC1KdmFybGJpZ1IwYXpUZDBWbUw3UEhqdHhFZkI1NnFOU1czRDdoMnpjc3k1dW56c2N0VXk0V3BvNjVuWTdsT0twdkNmanRONnRncVhrc0RNUE1TTmR6RlFsUjB0czJ3dDVKTjZpTklHUXd5bGR3dWZRajNsR0VJdjNDODNnUmc1NnBSd2xqb0xGX0xJWUhIUlFwYWhPYTNMY1lab0JjdTZ2dDJIRWRVLVpLSnJ1US1tUjZnbnN3REk?oc=5",
+        "date": "Sun, 03 May 2026 08:12:25 GMT",
+        "image": "https://logo.clearbit.com/ekmat.com",
+        "is_logo": true,
+        "source": "dainikekmat.com",
+        "description": "आज देशभरात ‘नीट’ परीक्षा  dainikekmat.com"
     },
     {
         "title": "‘राजा शिवाजी’ चित्रपटावर लातूरकरांचा शुभेच्छांचा वर्षाव - dainikekmat.com",
@@ -187,15 +196,6 @@
         "is_logo": true,
         "source": "dainikekmat.com",
         "description": "डॉ. शिवाजीराव पाटील उच्च माध्यमिकचा ८७ टक्के निकाल  dainikekmat.com"
-    },
-    {
-        "title": "नांदेडमध्ये ‘राजा शिवाजी’ चित्रपटाचा धुमधडाका; सर्व शो ‘हाऊसफुल’ अन् करमुक्तीची मागणी - dainikekmat.com",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcU1zanY2VlppYzB0TUhDX19sN3R6ekg2VFRBMldvWFVCNzFRM0JvRTRFWE9hYXRaVldZRFpVSmh0Zk1weVR5TEFCQ0ZGZVFCWDJOT1Utei1Pd1V6dGZxQ0s4UzNhYlotRVg0cDByZ2hRUUctNDZseTBPX25CRmE4YkM4c0YycGNHbndobngweWRyRXlDd0pZWUdZU1IzM2dfTnh6ZkRzel92bkhPWWZxNmktQURKQQ?oc=5",
-        "date": "Sat, 02 May 2026 14:37:42 GMT",
-        "image": "https://logo.clearbit.com/ekmat.com",
-        "is_logo": true,
-        "source": "dainikekmat.com",
-        "description": "नांदेडमध्ये ‘राजा शिवाजी’ चित्रपटाचा धुमधडाका; सर्व शो ‘हाऊसफुल’ अन् करमुक्तीची मागणी  dainikekmat.com"
     },
     {
         "title": "महात्मा फुले कनिष्ठ महाविद्यालयाचा निकाल ९५.३५ टक्के - dainikekmat.com",
