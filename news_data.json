@@ -9,15 +9,6 @@
         "description": "परवाना निलंबित, तरीही बेकरी सुरु, प्रशासनाची लातूर जिल्ह्यातील रेणापूर पोलिसांत  ABP Majha"
     },
     {
-        "title": "रत्नागिरीत हॉटेल बूक केलं, मध्यरात्री लातूरमधून मुलीला उचललं, कोकणात नेऊन अत्याचार, अपहरण प्रकरणाला नवं वळण - News18 Marathi",
-        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWWE1RGZmMl8xeGRFTkxQbGsxcnFWRkc5TFdtNGJHX3k1bFJzWnFnbmVpSXpxNnY2WE9FX2FESHcwNU9reGNEUk1wNi1CTUtOMUwydHdKV3BFQmNOYXVtaUFxVGpfOU1MUFV2S0taQTUyU2ZVMldtWGRvZTF2RE4teGstWnVkb1VuRWVaU3oxVU5XcTV2SWhhV0t2MXRpVV9yZjNyLWx3dlRZNWtVTVdjLXBIZnFqYTNjV2NrTzZ4TF84SXRCbGMzNkJ2UQ?oc=5",
-        "date": "Sun, 19 Jul 2026 03:35:00 GMT",
-        "image": "https://logo.clearbit.com/news18.com",
-        "is_logo": true,
-        "source": "News18 Marathi",
-        "description": "रत्नागिरीत हॉटेल बूक केलं, मध्यरात्री लातूरमधून मुलीला उचललं, कोकणात नेऊन अत्याचार, अपहरण प्रकरणाला नवं वळण  News18 Marathi"
-    },
-    {
         "title": "हातपंप दुरुस्तीसाठी माराव्या लागणार उदगीरला चकरा - dainikekmat.com",
         "link": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxNeWdVQndHLUtqV2lyMV9vSGRYQ3BxUFdRRnFGRkM2WXdQUmt2UU1heXllOVRKdVU2YUo0azBZblY2ZXR3Ykt2QUVDN3lvMlZzN0xSQVpaa3E1d241d1NpQ3E2S2R5dEdDQm9ZV1dkY1BVeGQ4V003dzI3QXJuV2g5UVFDRjZPQzVVMGJpZWlZbFFnV01ESF8tMUY4Y29BbGlxZzlHVVVaU2R3d0d5Rkc3YmR2bUNkQS1TVllvSXNIczZtWldhUFNDVV9sTDExV0ZiX2hybUxKOGc0UzFsb1VoeURieGFWUTlQUlN6LVA0NkdPak0xdi1nT1c0WHdGcHNHZVZ4dlJTNXc0bTZ4OERXVk1MZzJJaUtQdVFBaGNpQ05ualN4OWNWNTNpSnh0aE5aSzhWQU5aNXB2dVBPVXpuRWZTeE5pQ19SbHFocm5Id1hTZw?oc=5",
         "date": "Sun, 19 Jul 2026 16:19:29 GMT",
@@ -25,6 +16,15 @@
         "is_logo": true,
         "source": "dainikekmat.com",
         "description": "हातपंप दुरुस्तीसाठी माराव्या लागणार उदगीरला चकरा  dainikekmat.com"
+    },
+    {
+        "title": "लातूर, मराठी बातम्या - Lokmat.com",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE16TTVjUFc2d1dvcnlldlIzREYzTDlrS1l5aVQ2VmZKOUR4S0hNSjZrUS1mVjhWaXFBMzNmTUl6UW9XcUxvcjc5YlhVSTNuWnp6eF8weExPNWw5VnZCeTNj?oc=5",
+        "date": "Mon, 20 Jul 2026 02:37:41 GMT",
+        "image": "https://logo.clearbit.com/lokmat.com",
+        "is_logo": true,
+        "source": "Lokmat.com",
+        "description": "लातूर, मराठी बातम्या  Lokmat.com"
     },
     {
         "title": "चोरीकरून निघाले देवदर्शनाला, लातूर पोलिसांच्या नाकाबंदीत तीन दरोडेखोर अडकले - Lokmat.com",
@@ -45,13 +45,22 @@
         "description": "शालेय बेसबॉल स्पर्धेत मुलांमध्ये कोल्हापूर, तर मुलींमध्ये लातूर विजेता  Lokmat.com"
     },
     {
-        "title": "आता मुंबईसाठी 825 तर पुण्याला जाण्यास मोजावे लागणार 515 रुपये: महागाईत लालपरीचा प्रवास महाग, लातूरला तिकीट ... - Divya Marathi",
-        "link": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxPUWVYOFB3bEVOeHotZzBvRE1HaEphOG5NQkhVQnFQYmR4ajM2S3ZNOVBYSWRkSVcwNk1KOWgyMVZvN3hWSDdWaVd3M2l2Y1BUeVFiU1ItMkhEdEg3S1N2UGp1RnF2RGpTTmhVNVh5RlduWWdxLTBVTHNEaTAtdmh2b21LeTMzN1lpR1Nra280OVRLWFFmQkh0N3Q2Wnc4Y1VCMVM0UDhRN0x6azlURlFjY2pDZTBwdkdmZDdHNzJCV04xYnRxTW9KNmE0QXpxSVlCTnU3SVUzNmdlTXIxQUEwbHgxYmRNWWJvT2dwZ0p1VFdRRVRsSmxlc2lwbDRQeVlrZW9YUFJib2xQXzRiLWgzNnd5azhLX0FOQXBDTFRyT3NCenBZWnBLS3FLV3lsLWVuLTdiUDY3TDlvLTROb1hIT1RwdGdsc0t6RDBIQ0xOdzFaWFZsU0J1bmdfM3Q3MEEwVmhzcjNWZWRqTnZhQjN3TNIB9gJBVV95cUxQV0x5Mk5MVDBNUVVhWHo2Sk9GdEVlUzNsOVk3dWFPZDYtQ0d0VGRzcVpPeDV5dWkzQXhUT1BVMzFYLWlCbG1ySENtcFc0dkZwUFJ2LUlEMENya3Nfa0dQTHVXM1JZV0FpWjNsQ2I2bC1UUnVsdTBhU1RTb0JTLVJld09SNV9HcGxzZlBNODNnbkJDYkVhODA0b1VveER5TDFpOHlFdHh1WkhoNnlsVXF2SGNvel82cmI2cmRNel9TWGx4cEY2cFRmNmZCWTZKRWlST2ZnQ2tUU2RKOEdTWUVTTTV4R2hhTm1DMTZPd2RHeDgzMjFUbXJYR0J3V28xNlgzUGgtMW16bEotdU9zY1FRdlZZYmUycndjNXVqUXFXbncyYXNncXhXaGhuYUM2Ulo3VFR5MWlSd1J1WkFzR3BtNlhFV0dQVmU3UUpTVEpUalJGOU5Qa1dKYlJGS2xod2NZbG8xa0R6X3VwYWFtbkl6MW5LWHozQQ?oc=5",
-        "date": "Sun, 19 Jul 2026 02:58:04 GMT",
+        "title": "Latur: ‘केमिस्ट्री’चे दोन प्राध्यापक रडारवर?; लातूर शहरामध्ये ‘सीबीआय’च्या दोन पथकांचा मुक्काम - Esakal",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPLXJZdE1Wd0k5N0VYNUExdGlCelIwZGhHeHhiMTRsZTFTZXRqeFl6MmRxOTVNNzFsdjRkZFJwVnVoQkhFdW04d3dyakd6VWtXd1pGMTJ5clFzcWFrWlRCYmV0R2JGWGVaa0MzQi1ydHFuN1lHMjU2Zi0xampIaVlibmM4NmszQ0JOV0J5YlEwcE53X0FLZFRxNDhrTDJDelJXWnREeXlwQmJ6QmQ0aXpOQjhiS0RyS19XQURkblZnNnE?oc=5",
+        "date": "Mon, 20 Jul 2026 04:15:03 GMT",
+        "image": "https://logo.clearbit.com/esakal.com",
+        "is_logo": true,
+        "source": "Esakal",
+        "description": "Latur: ‘केमिस्ट्री’चे दोन प्राध्यापक रडारवर?; लातूर शहरामध्ये ‘सीबीआय’च्या दोन पथकांचा मुक्काम  Esakal"
+    },
+    {
+        "title": "शक्तिपीठ नव्हे ‘सक्तीपीठ’, महामार्ग रद्द होईपर्यंत संघर्ष: अमित देशमुखांचा सरकारवर घणाघात,लातूरसह राज्यातील... - Divya Marathi",
+        "link": "https://news.google.com/rss/articles/CBMi_AJBVV95cUxNVnNPZHhoeXdyNWVBV2tvbl9OXzlVQjlMTXdCR1pWYW11R3RuVEdndE1pc0ptRjlNdEUxM2FiOFF2bkhSemxLMHhDWUpVaWxCSnE4N2cwNEdBMjl6dXBlUS13QUlQQWlfUHhCbTc5c2xPWldaNFdfUkFuY0MwbTBYb3R6Tm5uOGVwLUxjY0xnTFp3RG1KSWNKUUtaZjVSUkZ1VFZNZzc1Z1FfRXZkQnFWRWY1bUphY193V2k3NXdJSWFDT3BjdlN3Y2pzaDMyTWFOZEhLZmpvalpUX1hyREFHS21iZHpmNFRGUElwZElFcTkxOEV0ZmZxUjg0bldIMHB4ZnQ3aU9sU0xxenlqYUNyNXkxVzhXaUhkYUtOQ3hXMW0wazkzWHpHRkFRdVlHVkNOejhIbWFnX3Y2M3BqcF9MaUQzYy01WFlGOElFTmtVZ0FyajNTTG4ybDBiT0V2YkxjWlBaal9NOEN3a3pReWJmZGZ2TV8tRUt3cHZia9IBggNBVV95cUxQdjhaT3NzNU8zSGdXdHlienVPUVl4MjNvdDBXWUJaOWhVY0RxV1d6NlJpVXdsblV5U2tKUXFnakdlSHhjaXpTR3hoSnVaX25nVVlYRUtJcUNiRG0yMmVxV1RqX1ota0lXLUwyenJHanR1MkRVM3BXbnJjR0RQZE5ZRmtEMldPUjV6VTQ5S1VsbGt1TVgwcTFGcllseHhJd0lKNHRBTnNoZTNTMVNEcy1sQmMzWWUyeTlPcFlETjJpWGx6RkZrb1lnOWdTbktFbkE3eHQ2ZVdZZXBJWE9ZSzBEd3VTUTNkWDF2TU5KcTFrR09lTzlBOHAzcHlqbmlrOUVEUndTVFY4VVdqYU9YV1dvVUl6aEJyS2o3SklkVk9lZ2VnWTNLcFlMSFhKTnAzeUtPRFhxUUR1Yi1rcHRTcHUzWkJGUy1xMG5BQzlUcmZObm5IMWk2SS1vUmlrU1VwbFk1R1NRZ2lISkZ2a1gzT1pCLUtGQVF1ZGZ2bmtYWmZ2SWVxZw?oc=5",
+        "date": "Mon, 20 Jul 2026 03:00:28 GMT",
         "image": "https://logo.clearbit.com/divyamarathi.bhaskar.com",
         "is_logo": true,
         "source": "Divya Marathi",
-        "description": "आता मुंबईसाठी 825 तर पुण्याला जाण्यास मोजावे लागणार 515 रुपये: महागाईत लालपरीचा प्रवास महाग, लातूरला तिकीट ...  Divya Marathi"
+        "description": "शक्तिपीठ नव्हे ‘सक्तीपीठ’, महामार्ग रद्द होईपर्यंत संघर्ष: अमित देशमुखांचा सरकारवर घणाघात,लातूरसह राज्यातील...  Divya Marathi"
     },
     {
         "title": "उदगीर: उदगीर बस स्थानकाच्या कामाची आ.संजय बनसोडे यांनी केली पाहणी काम दर्जेदार करण्याच्या अधिकाऱ्यांना व कंत्राटदारांना सूचना - Public App",
@@ -90,6 +99,15 @@
         "description": "लातूर: शिवसेना शहरप्रमुख मोहन दिवटेच्या सतर्कतेने अंगणवाडीचा खाऊ वाहून नेणारा टेम्पो ताब्यात; विवेकानंद पोलिसांकडून चौकशी सुरु  Public App"
     },
     {
+        "title": "देऊळगाव राजा: देऊळगाव राजा गजानन नगर परिसरात मालवाहू वाहनातून लोखंडी अँगल बाहेर धोकादायक वाहतूक, एसटीचे नुकसान - Public App",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5IVEVEZUFOU1M4ejl6R2lzZjRoY25OdC1BcVJHM3VUSjktQ0RacWJFRGNSajhJeXk3S1g3QW5abkM5eFUxamdsby1WRm1MODFYX2JV?oc=5",
+        "date": "Mon, 20 Jul 2026 01:52:41 GMT",
+        "image": "https://logo.clearbit.com/public.app",
+        "is_logo": true,
+        "source": "Public App",
+        "description": "देऊळगाव राजा: देऊळगाव राजा गजानन नगर परिसरात मालवाहू वाहनातून लोखंडी अँगल बाहेर धोकादायक वाहतूक, एसटीचे नुकसान  Public App"
+    },
+    {
         "title": "NEET Paper Leak : नीट पेपरफुटी प्रकरणी केमिस्ट्री प्राध्यापकाचा शोध सुरू, लातूरमध्ये - ABP Majha",
         "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQMHU0SXFyTHhmVjdPZlRKRUIwSXdqSDIyMF90THF4UDNSdE9Pb1E4dmxsYUlzekNPanZ2b3JpVWtOTVExS1pUMXB2ZmNnRmZjYThWNmEwVk9Nc1ktbkF2ZExwWXR5U0ZjZEwwek15VjFSV1hidkRWMTNHUllsNTdrdDBZUWl2VnFoMEFmSmQzM1gwcGZJUHdrazAtNng3Qm9UMG1VN28zLXNhWjg5ekVXdWFZRkhaNnQ0UU41Vy1QMkZNRWhndUFHRE1RUzlLSlgyTEpwTTUzQVlPZ9IB3wFBVV95cUxPOUZmZ0JNVXZsVk9OcXVsWEpxRVJ4ZnVpSUFWMFJudkNsNHBab2p3Mml5czBHU1BYU2xuck9VT01vZXN3TGMtN2tqUXZRRHg4eWpMWjB3R0dZaXBZb2JxVXF3ODRDTWhwQ1hoVE1oVkFLamhibkpqSVFDMU8wUmxCRGY2RWV0VHdDdktDN0FObXlsbE5oaHJJR3BNaHNsS0JNSUdwN2xFVi1KTk9rUng2LUxWQm1sbjNzbktBS3VDWlE4YkJyRFRZWTBzdXByTkoyTXZSaXlERTd4VnFORXh3?oc=5",
         "date": "Sun, 19 Jul 2026 13:11:01 GMT",
@@ -99,22 +117,13 @@
         "description": "NEET Paper Leak : नीट पेपरफुटी प्रकरणी केमिस्ट्री प्राध्यापकाचा शोध सुरू, लातूरमध्ये  ABP Majha"
     },
     {
-        "title": "लातूर जिल्हा परिषदेची भिस्त प्रभारीवर - dainikekmat.com",
-        "link": "https://news.google.com/rss/articles/CBMixwJBVV95cUxNSjcycjAtaFNSUnZOUGpYR0tNS0JMR2M5dHZsRENCdVdnUmhPM2NGbW96THZreDJJV3hZZGZBeFZnRmFreFBqSkZaSTVZYkxCbGQ3U3U3RkFvRUh2VmZBYTZvYldkWHlHQ0k5TXEzQ0JDMUxQbktKM1dZTjVjZVNiSXNrMk4wYkU3RkJRYkcxTTBIM1hqb1B6Y0JzMVVLNkZHVTFIVHMybXN6a2NILV9ZN1VCOVlKUlpRQ1F3SjE1cnRDNTZzSlp0cl9aRld3aXVBR21pd0FuLXV5MlZZdEpXREVXcEJTN3A3ZENYYmpTQnQyZTh5SU9PbjZqOXhoVmxxek50X2NtYXN4RXIxeDh0UW9BR29wTVk3T2Zqbmd6ZHFOVVVqRmQ1Q3p2X3VYY2NJTWhhRjI5WmhlZE9wdXdVa0ktLW5hT0k?oc=5",
-        "date": "Sun, 19 Jul 2026 18:44:08 GMT",
+        "title": "जिवंत व्यक्तीची नोंद केली मयत व्यक्तीच्या यादीत - dainikekmat.com",
+        "link": "https://news.google.com/rss/articles/CBMixwJBVV95cUxNWkxIM0pyYWl4cldvck5RQS12aEIzc2xOTk9kS2dpUnAxeEw2ZVJydEhnRnV0Q1Z6VVlNdlFOdlhKV2NkU05MVFdoNGMxR0RQbHdqaWNnY0g5UEdteXk1MkNpZHRoRHAtRXQ0Z2JoNXkxLWxNOGh6UGtpRkdxeXhxN2JtTndZSmQxN1Z2YldRSy1lekVrdFBaa0NCWFJQdndPbVcyelRFTU0xZTBSVmo4VkJ6ODktTFNiRGdTd3BuSmhOaE5laEtGa1VEeVpwa3E3SnFPYjRHMk01S0w1TWNEdW1IMUl5SXNJMVhNMmw0TklNS1c2em5wVE5SNl9qRzZOWnZhTnJXZkhocEZhRTVQTWJXYUdXazRTM1VkNnZVOUVGcHFGcnN4V1Z2dXFHeEVwSFlwblBoVjVtMllUaHNZSzJGOHoxSE0?oc=5",
+        "date": "Sun, 19 Jul 2026 16:21:35 GMT",
         "image": "https://logo.clearbit.com/ekmat.com",
         "is_logo": true,
         "source": "dainikekmat.com",
-        "description": "लातूर जिल्हा परिषदेची भिस्त प्रभारीवर  dainikekmat.com"
-    },
-    {
-        "title": "धोंडी…धोंडी…पाणी दे..! - dainikekmat.com",
-        "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPZGN5LTBuQVBjblpVUEdJMlh0bTZLTnFGcHdmYTRILWlLXy1EMVZ1MndILXU5TDVwOURkYkxnSmN3dXEtcnQwc2NwdFVjbVNzSzlRMmpnSnlrLWdGR2prdmlBRlplTjFnVTB2WHVYTW1kWEhTT3NzRHlUSGJickhqeC1rSE14RDl3S21wbHFyelJpVlFqMGpxOHE1blRUUGZMRkxqb1ZiaVNWZl9TTlpqWDFmSEp1T1pqYTc5czNVQkJ0TzRwY3IxTkY2VnR2Ulk4emx4cFBYN1NiZlBfMlM0aUtVMkY5OXk4cnpwWHByX2NTZzZGcVhRSFkyZkNocE5DX2RReDI4YnBYeDA?oc=5",
-        "date": "Sun, 19 Jul 2026 18:42:33 GMT",
-        "image": "https://logo.clearbit.com/ekmat.com",
-        "is_logo": true,
-        "source": "dainikekmat.com",
-        "description": "धोंडी…धोंडी…पाणी दे..!  dainikekmat.com"
+        "description": "जिवंत व्यक्तीची नोंद केली मयत व्यक्तीच्या यादीत  dainikekmat.com"
     },
     {
         "title": "केमेस्ट्रीचा प्राध्यापक रडारवर - dainikekmat.com",
@@ -124,42 +133,6 @@
         "is_logo": true,
         "source": "dainikekmat.com",
         "description": "केमेस्ट्रीचा प्राध्यापक रडारवर  dainikekmat.com"
-    },
-    {
-        "title": "पावसामुळे हाहाकार उडणार - dainikekmat.com",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5OZFkwbTllekVGTjhoRUozZ0dxSll0ZDEwMHl2M2ZyOGF1TzlCVnpJZkRhbmF3ZUs0akZyMm1sWkNaOG9QamRYMGZZV2d3RlhoUG9JeFFtdExkaEFIcEdfVTFaNWhUQXE3?oc=5",
-        "date": "Sun, 19 Jul 2026 15:39:09 GMT",
-        "image": "https://logo.clearbit.com/ekmat.com",
-        "is_logo": true,
-        "source": "dainikekmat.com",
-        "description": "पावसामुळे हाहाकार उडणार  dainikekmat.com"
-    },
-    {
-        "title": "राज्यात पुढील पाच दिवस पावसाचे थैमान - dainikekmat.com",
-        "link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxOZ1BOS280eGpSTUh2RkNZVEFRLTgtejR5NFBZVmE2MTk2MmNrY1NNODNuVTVKZ2Z2Y0ZOal92RlR4SWFFM1VmQkdEODBoeU4tX0NYekF1OVdOdnBzZGpnbGMtdGpJYkwyaU5yNnVhUnlLeG1Na2FSV1J3dmxHU0RuSnFTNzVmUWdfMmQ0cDI4Y3BjMzh3NmxBQ0szalZnSjlpLUJRQ3NsWVY2YmlpME15YnppcXk4dmo1OVBNQlZQMUl5YmlHVFhOR0tGTGZkZ2QyTFlfaXZ4amhxLW9VdVg0QlpRTS1OWTUxY3hCWk5TemVobS1zWmg3aUNGdy1aZzl1ZHd1VXRSdm01Q2w0MGNOdUYyeElIY1dqNzFabTZUdXZwdll6TnR5RThvbG13VHgxM0hDS1B6UzVuYXNXQWZfZFFCS2g2dkE5?oc=5",
-        "date": "Sun, 19 Jul 2026 13:02:47 GMT",
-        "image": "https://logo.clearbit.com/ekmat.com",
-        "is_logo": true,
-        "source": "dainikekmat.com",
-        "description": "राज्यात पुढील पाच दिवस पावसाचे थैमान  dainikekmat.com"
-    },
-    {
-        "title": "फेसबुक पुन्हा सुरू, कंपनीकडून बिघाड दुरुस्त - dainikekmat.com",
-        "link": "https://news.google.com/rss/articles/CBMixwJBVV95cUxNV2dvc2VNR3dGYnRyNXBGSXFMRERrY05FRGQ2R1lDU0JvQmIzcUxMcTJPdTk2cU03Ym1xM3FTQnN1TDFXNkNNX3F3XzI4VHAzWVBaYzlWeklKZWFSNGlyOWVuUGlyQ3Z5THFGSDJOalhBWUR5MTdMbTJuM2NVU3FUZHJGaG5HMFFDZVN1RUJYWGVUeFJ5U1VZQ2JURTNPVW52VnRsT3pkeTNDYjQ3dFRNcEdpQUVoRkR3bXplVG9Vc0VBYUpFRWxHNDd2ZGpDSk1WZGE3d2RrQ1RvLVRWcld1TU1TZkhGUHA1Qk9WTktXQ3h6YWlMeFgwYkpHU3lsc056UUh2VXFwQkk0dEtxeVc3Rkp4SnZ2NEhlWUstRG1RMjNqczVDV0VCeG5GQXFMYmRod0ltSTk5NEVWMFNnaGpwd0ZJVmlwOE0?oc=5",
-        "date": "Sun, 19 Jul 2026 14:55:24 GMT",
-        "image": "https://logo.clearbit.com/ekmat.com",
-        "is_logo": true,
-        "source": "dainikekmat.com",
-        "description": "फेसबुक पुन्हा सुरू, कंपनीकडून बिघाड दुरुस्त  dainikekmat.com"
-    },
-    {
-        "title": "तामिळनाडूत ७ अधिकारी निलंबित - dainikekmat.com",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9oZFZQQTA2WXlEYllZZkl3cDA5SEJuS1R5bnhXXzc5anJHT01peDBoUzhsakZERm5TaWltY0Y4SHBybVB2ZzBrVnR0dHAxUkxQdmM4NG15MnYxTGpJZ2lTQ21HU2tFUUQ4N0ZwLUJlWDhib3hiWFE?oc=5",
-        "date": "Sun, 19 Jul 2026 14:28:41 GMT",
-        "image": "https://logo.clearbit.com/ekmat.com",
-        "is_logo": true,
-        "source": "dainikekmat.com",
-        "description": "तामिळनाडूत ७ अधिकारी निलंबित  dainikekmat.com"
     },
     {
         "title": "माजी महापौराला तब्बल २ किलो सोन्याचा गंडा - dainikekmat.com",
@@ -180,6 +153,15 @@
         "description": "विवाहितेवर सामूहिक बलात्कार; बुलडाणा हादरले  dainikekmat.com"
     },
     {
+        "title": "डोंबिवली डॉक्टर मारहाण प्रकरणी पाचवी अटक - dainikekmat.com",
+        "link": "https://news.google.com/rss/articles/CBMixwJBVV95cUxNWTlCUFZqdjJ2RlN0TmdjWms4NFIycWtFdFNkRDFjbkZjbVo2QjNQYUpXdDZNUW5CUjVodmdjV3B0N0FDMnBrME5YOHk1endFdkpfbkhkNmVpcHd4M3J0dGZvX19mUmdNYV9JOVctalJPcTM4X1VLMVo3bXhkZk1sMVEtdVIwSVFDQThBQWk3VDlCY2VvUndobFVkM0JwWF8yOGx2WWFHdkQ3cEYybmpLNFJlOXlOX3RjZmNyWTRvU3puc0haZ2ZYZG04SzVWRE5TUzFpQnByVWo0ZURwbms1Z3NzTWZvUDMxWVdxeHVTTzljQzJBVGtHWVVGSHpQYUhFdFc0SVNraUw1QXRoeVR5cUdUSVlwSG5Od2gyaGVWQ0twYXF6VHE2OUlkcXBqTUFoSXdfWXFCdkhCbDF2ZV9PWHlvWVZkWDQ?oc=5",
+        "date": "Sun, 19 Jul 2026 10:38:30 GMT",
+        "image": "https://logo.clearbit.com/ekmat.com",
+        "is_logo": true,
+        "source": "dainikekmat.com",
+        "description": "डोंबिवली डॉक्टर मारहाण प्रकरणी पाचवी अटक  dainikekmat.com"
+    },
+    {
         "title": "ई-रिक्षा उलटून महिलेचा मृत्यू ;पतीविरोधात पोलिसांची कारवाई - dainikekmat.com",
         "link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxOcTk1dnFWNW1Wd3h5VUxQT3FTNzZ1S1doWTVHLXdsVFdyQ1AtUjRtVlNMZkN5Y3dvU1UwSDZ5c2dCZ2tTYmRSenVFNUhFRC1uR0FSbEFQTHNrRG1hMU5HZ0VvZlV5S3IyREZmZ0VRZGlWRGZrOGw2OGNicDhSQ3Y4Z3d3SUhPVWhaczVsdjFfSXBoMjRVMzI4blZTY202STc1ZUkzaHROS09acGdPYU5FX292OEplZVI0ajk1bzV0cmZ3S29CcDFnVTRBdlo1QXJmbFlLeFJDZDAtamJYcjdYaFp2YlE5c1l4WENoa0lZOHMxS0RSRGN1Zm5qdFgzalNDakR4NENmSVB1OFdrZE14TjVCdVRsNzFPanlMaHlJT3FrN3hLZUFGYnZYWDhDSTdUeTNpN1BfaXlEa0U5cUxnMl9GSnc4MUlY?oc=5",
         "date": "Sun, 19 Jul 2026 08:04:39 GMT",
@@ -189,6 +171,33 @@
         "description": "ई-रिक्षा उलटून महिलेचा मृत्यू ;पतीविरोधात पोलिसांची कारवाई  dainikekmat.com"
     },
     {
+        "title": "तू माझ्या आयुष्यातील सर्वांत अनमोल आशीर्वाद; कतरिना कैफने शेअर केले मुलासोबतचे खास फोटो - dainikekmat.com",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMXZ4ZFRBc01fWW1kM2xyajlWcFlOSWFHNEdBZ1VLOVVEbF9wRVpzb2Q0MFVMSmZCVS1OdHZZa244OW12ZGYxeGRXLVV6MjVxcFlvMzVnc3IwZWw4TWpjMFMxWUY3ZlZERmNhcEJscFdCUGxRc1BNQ2dMTnlhYkhwc3RBNGotbllObGptTnAyTXJHVjEwSllWZVNsX2F1TkpkYWpULVREcjViZ1RicGlkNWxiZ2FCdDJyQkZSTy1DREhNT0hwMEE?oc=5",
+        "date": "Sun, 19 Jul 2026 10:41:40 GMT",
+        "image": "https://logo.clearbit.com/ekmat.com",
+        "is_logo": true,
+        "source": "dainikekmat.com",
+        "description": "तू माझ्या आयुष्यातील सर्वांत अनमोल आशीर्वाद; कतरिना कैफने शेअर केले मुलासोबतचे खास फोटो  dainikekmat.com"
+    },
+    {
+        "title": "२० जुलै रोजी पुण्यातील १० हजार डॉक्टर संपावर; रुग्णसेवा कोलमडणार - dainikekmat.com",
+        "link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxQSkZIMTlrLUkxOTVmT0Z4cFd0VlQweFJYOEFvS2RfQ2Jad0t6QmtEdjdKdFlmeEoxWlA1S1pkbV9xU1dhRng5Y25yaXUxV0d2d3hoOW5hUEJyNnF5UWp2VmlWdWllazNCM05ha1l2emlGU09vQU91MVdmaDhKZ25IOGFKRjhzbFpuTzBoMWRuc3E5Nl9Vem5SN1ZMb1dtM2k0VFhlM0hKWFFhanNaeHBCUnJ4WVkxbENoeWdDdTgyY3A1UENWaFp3ekotTExSZURLbEwtYWRvNnh3NEh2Um5jdGp1cmlSNHFJdmFUOE9wODdlaXk2RGVianFlZVlVd0tOeXg1Ym5sUDQxT1J3cGl2enIxSmdRcGh0bF9Ibmw0RnQyblhuS1h1WGNuNG81ek9jQjZCMVZ4aXd5OHpEcERuUHFxX1owUENf?oc=5",
+        "date": "Sun, 19 Jul 2026 08:10:19 GMT",
+        "image": "https://logo.clearbit.com/ekmat.com",
+        "is_logo": true,
+        "source": "dainikekmat.com",
+        "description": "२० जुलै रोजी पुण्यातील १० हजार डॉक्टर संपावर; रुग्णसेवा कोलमडणार  dainikekmat.com"
+    },
+    {
+        "title": "सोनम वांगचुक यांना पाठिंबा वाढला; समर्थकांची दिल्लीकडे कूच - dainikekmat.com",
+        "link": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxQSVdmd0xTZ1VhQjh5MzhpNmQzNXBwbWFpUTV3clRnY0NWVEJaalRURnRKUlpVclQ3TXR0ZWlpblJDVlRkZFRFaUVYMWM2WmRnQ21VRGs0UlBlOGtrVkh0MXBlbkRlT3JyZTFiV0hQQS1MTE9vcXJpelpQWHZZTzJrc0o3SGtlUzdiX0k1bWQ3TmNJbExCU21kOEFJVzlIa0VIbFNfZm83Z1JEckhnOXRmZUhuUHl6Y2pvMWRzRVJoRUU3VnVwODJPTF9NbmhLN3Mxd2hHc1V2NU5LbG1YY2NKZXlNQTRJU3BudU1sUnJxUV8tWWJQRkE1QXh2RXJoSXp0VjFqZGhTbDRmYnZBejVGWXZTa0JRRVl2alFUMFFGMGo0Wjl5ME42akg0TmR6UzhMUjAtclFETXdDa3FYcmtHOVFjMVEyWFRzeldUMnBhOElMUQ?oc=5",
+        "date": "Sun, 19 Jul 2026 07:17:08 GMT",
+        "image": "https://logo.clearbit.com/ekmat.com",
+        "is_logo": true,
+        "source": "dainikekmat.com",
+        "description": "सोनम वांगचुक यांना पाठिंबा वाढला; समर्थकांची दिल्लीकडे कूच  dainikekmat.com"
+    },
+    {
         "title": "Video | Latur | मोटेगावकरच्या क्लासेसमध्ये सलग दुसऱ्या दिवशी कारवाई | NDTV मराठी - NDTV Marathi",
         "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQanZ6TGVFd045Qjl0Y2MxTHh5WTB1NERiaXZRWW1Hc1M3RnV0QVZzRzY3VDdzRlJwNW9aT2NMWVNKc3NONGtBdVdIVXh6cE9EN19IN1g4WDVTM3A3RU85TGtyOElhbHNidjZlOWU0UVZZMHhGRnJNZG9tZEZaUzd0RUQ3ZU5PUGdKOWVGRE5OTFdaQmQ1MEVLTU9lWDRZSHAxWFNDN3dHT2NQU1FCd1hLSXdHRW9SeVEtcURDN29B?oc=5",
         "date": "Sun, 19 Jul 2026 08:50:45 GMT",
@@ -196,15 +205,6 @@
         "is_logo": true,
         "source": "NDTV Marathi",
         "description": "Video | Latur | मोटेगावकरच्या क्लासेसमध्ये सलग दुसऱ्या दिवशी कारवाई | NDTV मराठी  NDTV Marathi"
-    },
-    {
-        "title": "Video | Latur | मोटेगावकर क्लासेसवर CBI ची पुन्हा धाड? | NEET | NDTV मराठी - NDTV Marathi",
-        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOY2szZWROQk16RklvRjJyeE5lRHJKeGVTWEZKbldJZ0kwazVjRDdCeU95OE1UZzBqZ3VtdVNZVGZLdjR6MDdfQ251cWt0M2RjSjdNMkpkSDFFYTA4MWNKNDl4MFpwNi1TcmllaFNtVjU4UUtTWnVXZzJKVWpneW9ZNDZTa2s4bGFuSnI2c05BYkdTa0pYa04xQ0loMFlpanpM?oc=5",
-        "date": "Sun, 19 Jul 2026 04:13:38 GMT",
-        "image": "https://logo.clearbit.com/ndtv.com",
-        "is_logo": true,
-        "source": "NDTV Marathi",
-        "description": "Video | Latur | मोटेगावकर क्लासेसवर CBI ची पुन्हा धाड? | NEET | NDTV मराठी  NDTV Marathi"
     },
     {
         "title": "​कोटा-लातूरला-न-जाता-कुमारी-रिद्धी-वसूची-नीट-परीक्षेत-उत्तुंग-झेप-७२०-पैकी-मिळवले-६३३-गुण - deshonnati.com",
